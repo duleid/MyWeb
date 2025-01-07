@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Development Enthusiast", "Finance & Accounting Analyst", "Cat Lover"];
+  const toRotate = ["Business & Data Analyst", "Cat Lover", "Car Enthusiast"];
   const period = 2000;
 
   useEffect(() => {
@@ -54,10 +54,10 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                {/* <h1>Hi! I'm Daniel.</h1> */}
-                <h1>Hi! I'm Daniel. <span className="txt-rotate" data-period="3000" data-rotate='[ "Web Developer", "Web Designer", "Finance & Accounting Analyst" ]'><span className="wrap">{text}</span></span></h1>              
-                  <p>
-                  As a web development enthusiast with a background in computer science, I have a deep passion for coding and a strong interest in driving cars and caring for cats. Alongside my role as a Finance & Accounting Analyst, I am currently honing my skills in React and actively seeking collaboration opportunities in the field of web development. With a strong foundation in both technical expertise and creative problem-solving, I am dedicated to delivering high-quality solutions that meet the needs of both businesses and users.
+                <h1>Hi! I'm Daniel.</h1>
+                <h2><span className="txt-rotate" data-period="3000" data-rotate='[ "Busines & Data Analyst" ]'><span className="wrap">{text}</span></span></h2>              
+                  <p style={{ backgroundColor: 'rgba(128, 128, 128, 0.5)', padding: '10px', borderRadius: '5px' }}>
+                  As a business and data analyst with a background in computer science, I combine technical expertise with creative problem-solving to deliver impactful insights and solutions. Beyond my professional role, I am passionate about coding, driving, and caring for cats. Currently, I am enhancing my skills in interactive data visualization and BI dashboard development, while seeking opportunities to collaborate on innovative data analysis projects. My dedication to quality and user-focused solutions drives me to continuously refine my knowledge and contribute meaningfully to transforming data into actionable insights.
                   </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}

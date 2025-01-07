@@ -35,12 +35,25 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>The skills listed below pertain primarily to website development. If you would like to learn more about my experience and qualifications, please refer to my resume. Thank you for your consideration.</p>
+                        <p>The skills listed below pertain primarily to data analysis. If you would like to learn more about my experience and qualifications, please refer to my resume. Thank you for your consideration.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/New_Power_BI_Logo.svg/1200px-New_Power_BI_Logo.svg.png?20210102182532" alt="Power BI Logo" />
                                 <h5>Power BI</h5>
                             </div>
+                            <div className="item">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1024px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Excel Logo" />
+                                <h5>Excel</h5>
+                            </div>
+                            <div className="item">
+                                <img src="https://olas.ie/wp-content/uploads/2022/10/PowerQuery-Logo.png" alt="PowerQuery Logo" />
+                                <h5>PowerQuery</h5>
+                            </div>
+                            <div className="item">
+                                <img src="https://www.svgrepo.com/show/331760/sql-database-generic.svg" alt="SQL Logo" />
+                                <h5>SQL</h5>
+                            </div>
+
                             <div className="item">
                                 <img src="https://cdn.worldvectorlogo.com/logos/quickbooks-1.svg" alt="QuickBooks Logo" />
                                 <h5>QuickBooks</h5>
