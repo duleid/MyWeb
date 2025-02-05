@@ -40,15 +40,15 @@ export const Contact = () => {
       setButtonText("Send");
       setFormDetails(formInitialDetails);
 
-      if (response.ok) {
-        setStatus({ success: true, message: "Message sent successfully!" });
-      } else {
-        setStatus({ success: false, message: result.error || "Something went wrong, please try again." });
-      }
-    } catch (error) {
-      setStatus({ success: false, message: "Network error, please try again later." });
-      setButtonText("Send");
-    }
+    //   if (response.ok) {
+    //     setStatus({ success: true, message: "Message sent successfully!" });
+    //   } else {
+    //     setStatus({ success: false, message: result.error || "Something went wrong, please try again." });
+    //   }
+    // } catch (error) {
+    //   setStatus({ success: false, message: "Network error, please try again later." });
+    //   setButtonText("Send");
+    // }
   };
 
   return (
